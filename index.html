@@ -11,37 +11,49 @@
     <img class="wave" src="img/wave.png">
     
     <div >
-      
         <div>
-            
              <h2 class="title">HISTORIA CLINICA VETERINARIA & SPA</h2>
-
-
-            <div class="input-div one">
-                <label>Propetario:<input type="text" name="apellido" required></label><br>
+             <div class="bloque2">
+             <button onclick="mostrarOpciones()">⋮</button> <div id="opciones" style="display: none;">
+                <ul>
+                  <li>***********</li>
+                  <li>**********</li>
+                  <li>************</li>
+                  <li>************</li>
+                  <li>**********</li>
+                </ul>
+                </div>
+        </div>
+              <form>
+                <div class="search">
+                  <input type="text" placeholder="buscar Paciente" />
+                  <button type="submit">Buscar</button>
+                </div>
+              </form>
+            <div class="">
+                <label>Propetario:<input class="es" type="text" name="apellido" required ></label><br>
             </div>
-
-
-            <div class="input-div pass">
-                <label>direccion:<input type="text" name="apellido" required></label><br>
+            <div class="">
+                <label>direccion:<input  class="es" type="text" name="apellido" required></label><br>
             </div>
-
             <div>
-                <label>Telefeno:<input type="text" name="apellido" required></label><br>
+                <label>Telefeno:<input  class="es" type="text" name="apellido" required></label><br>
             </div>
             
-         
-                <div class="div">
+                <div class="">
                     <label>Nmonbre de Paciente:<input type="text" name="apellido" required></label>
                 </div>
-
-          
                 <div >
                     <label>Fecha de nacumiento:<input type="text" name="apellido" required></label>
                 </div>
 
 
-                <form>
+
+
+
+
+
+              <form>
                     <h4>Especie</h4>
 
                     <label for="Canino">Canino</label>
@@ -55,9 +67,9 @@
 
                     <label for="Lagomosfos">Lagomosfos</label>
                     <input type="radio" id="Lagomosfos" name="Especie" value="Lagomosfos">
-                </form>
+             </form>
 
-                <form>
+              <form>
                     <h4>Raza</h4>
 
                     <label>Raza:<input type="text" name="" required></label>
@@ -67,32 +79,46 @@
                   
                     <input type="radio" name="radio" id="femenino" value="femenino"> ♀
                     <label>Color<input type="text" name="" required></label>
-
-                   
-                </form>
+              </form>
                
+
+
+
+
+
+
+
+
 
                 <h3>SEGUIMIENTO</h3>
                 <table>
-               
+        
                     <tr>
-                      <th>Fecha</th>
-                      <th>Anamnesis</th>
-                    </tr>
-                    <tr>
-                      <td id="fecha1" contenteditable="true"></td>
-                      <td id="anamnesis1" contenteditable="true"></td>
-                    </tr>
-                    <tr>
-                      <td id="fecha2" contenteditable="true"></td>
-                      <td id="anamnesis2" contenteditable="true"></td>
-                    </tr> 
+                        <th>Fecha</th>   
                 
-                         <!--
+                        <th>ANAMNESIS</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+
+
+                
+
+                     <!--
                     <tr>
                         <td><input type="text" value="1"></td>
                         <td><input type="text" value=""></td>
-                       <!-- <td><input type="text" value="210"></td>
+                        <td><input type="text" value="210"></td>
                     </tr>
                     <tr>
                         <td><input type="text" value="2"></td>
@@ -104,26 +130,18 @@
                         <td><input type="text" value="tengo hambre"></td>
                       
                     </tr>
-                -->
-                </table>
-                
-        
-        
+                     -->
 
-
-
-
-
+        <!--
             <div >
             <a>Olvidé mi contraseña</a>
             </div>
             <input name="btningresar" class="btn" type="submit" value="INICIAR SESION"> 
         </div>
- 
+         -->      
 </div>
 </div>
 
-xampp\htdocs\praica.intento
 
 </body>
 </html>
