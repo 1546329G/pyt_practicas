@@ -12,6 +12,14 @@
 
 }
 
+/*
+.fondo2 {
+  background-image: url('../img/veterinari1.jg');
+  background-position: center;
+  width: 100%; /* ancho 
+  height: 600px; /* alto 
+  background-size: 100vw 100vh; /* para que se adapte al tamaño de la pantalla 
+}*/
 
 
 
@@ -19,9 +27,12 @@
 
 
  
-button{
-  position: absolute;
-  top: 80%;          /*posisionte boton :) */
-  left: 50%;
-  transform: translate(-50%, -50%);
+.boton-iniciar {
+  /* Aquí puedes agregar los estilos que desees para el botón */
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
