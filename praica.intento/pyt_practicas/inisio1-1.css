@@ -1,4 +1,4 @@
-.boton-iniciar {
+.boton-iniciar 
     /* Aquí puedes agregar los estilos que desees para el botón */
     background-color: #4CAF50;
     color: #ffffff;
@@ -6,4 +6,4 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+  

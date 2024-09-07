@@ -1,38 +1,51 @@
+/* CSS (in style.css file) */
 
-.fondo1{
-    text-align: center; 
-    font-size: 60px;
-    border: 1px solid rgb(183, 176, 176);
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+  position: relative;
 }
 
- .fondo2{
-  background-position: center;
-  width: 100%;/*ancho*/
-  height: 600px; /* Alto */
-
+.title-diseño {
+  padding: 20px;
+  text-align: center;
+  position: absolute; /* Establecemos la posición absoluta del elemento "Bienvenido" */
+  top: 50%; /* Centramos el elemento "Bienvenido" verticalmente */
+  left: 50%; /* Centramos el elemento "Bienvenido" horizontalmente */
+  transform: translate(-50%, -265%); /* Desplazamos el elemento "Bienvenido" hacia la izquierda y arriba para centrarlo */
 }
 
-/*
-.fondo2 {
-  background-image: url('../img/veterinari1.jg');
-  background-position: center;
-  width: 100%; /* ancho 
-  height: 600px; /* alto 
-  background-size: 100vw 100vh; /* para que se adapte al tamaño de la pantalla 
-}*/
+.background {
+  max-width: 100%; /* Ajusta el ancho del contenedor al ancho de la pantalla */
+  max-height: 100vh; /* Ajusta el alto del contenedor al alto de la pantalla */
+  display: flex; /* Centra la imagen horizontalmente */
+  justify-content: center; /* Centra la imagen verticalmente */
+}
+
+.background img {
+  width: 60vw; /* Reducimos el ancho de la imagen a 80% del ancho del contenedor */
+  height: 60vh; /* Reducimos el alto de la imagen a 80% del alto del contenedor */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
 
 
+.start-button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  position: absolute; /* Establecemos la posición absoluta del elemento "Bienvenido" */
+  top: 86%; /* Centramos el elemento "Bienvenido" verticalmente */
+  left: 47; /* Centramos el elemento "Bienvenido" horizontalmente */
+   /* Desplazamos el elemento "Bienvenido" hacia la izquierda y arriba para centrarlo */
+}
 
-
-
-
- 
-.boton-iniciar {
-  /* Aquí puedes agregar los estilos que desees para el botón */
-  background-color: #4CAF50;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.start-button:hover {
+	background-color: #3e8e41;
 }
