@@ -72,11 +72,11 @@
         <input type="date" id="fechaSeguimientoFin" name="fechaSeguimientoFin"> 
 
         <!-- Botón para agregar descripción -->
-        <button type="button" id="btndescripcion">Añadir descripción</button>
+        <button type="button" id="btndescripcion">descripción</button>
+        
 
         <!-- Contenedor donde aparecerán las descripciones -->
         <div id="notas"></div> 
-
         <div class="submit-group">
             <button type="submit">Enviar datos</button>
         </div>

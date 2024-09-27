@@ -42,7 +42,7 @@
     
     <!-- Botones que redirigen a otras páginas -->
     <button onclick="window.location.href='index.php'">Registrar Paciente</button>
-    <button onclick="mostrarBusqueda()">Buscar Paciente</button> <!-- Botón que muestra la búsqueda -->
+    <button onclick="mostrarBusqueda()">Buscar Paciente</button>
     <button onclick="window.location.href='ver-clientes.php'">Mostrar Datos de Paciente</button>
 
     <!-- Campo de búsqueda oculto inicialmente -->

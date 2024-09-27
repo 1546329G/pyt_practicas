@@ -27,8 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $color = $_POST["color"] ?? '';
     $fechaSeguimientoInicio = $_POST["fechaSeguimientoInicio"] ?? '';
     $fechaSeguimientoFin = $_POST["fechaSeguimientoFin"] ?? '';
-    $descripcion = $_POST["descripcion"] ?? ''; // Este campo necesita ser capturado en el formulario
-
+    $descripcion = $_POST["descripcion"] ?? '';
     // Consulta SQL para insertar datos
     $sql = "INSERT INTO clientes (apellido, direccion, telefono, paciente, fechaNacimiento, dni, especie, raza, sexo, color, fechaSeguimientoInicio, fechaSeguimientoFin, descripcion)
     VALUES ('$apellido', '$direccion', '$telefono', '$paciente', '$fechaNacimiento', '$dni', '$especie', '$raza', '$sexo', '$color', '$fechaSeguimientoInicio', '$fechaSeguimientoFin', '$descripcion')";
